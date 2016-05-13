@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @pelicula.Nombre %>
+</p>
+
+<p>
+  <strong>Genero:</strong>
+  <%= @pelicula.Genero %>
+</p>
+
+<p>
+  <strong>Anio:</strong>
+  <%= @pelicula.Anio %>
+</p>
+
+<p>
+  <strong>Duracion:</strong>
+  <%= @pelicula.Duracion %>
+</p>
+
+<p>
+  <strong>Actor:</strong>
+  <%= @pelicula.Actor %>
+</p>
+
+<%= link_to 'Edit', edit_pelicula_path(@pelicula) %> |
+<%= link_to 'Back', peliculas_path %>
